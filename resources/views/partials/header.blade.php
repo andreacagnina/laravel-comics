@@ -10,7 +10,7 @@
                 <div class="content d-flex align-item-center">
                     <ul class="d-flex my-0">
                         <li class="fw-bold"><a href="">characters</a></li>
-                        <li class="fw-bold"><a href="">comics</a></li>
+                        <li class="fw-bold"><a href="{{ route('homepage') }}">comics</a></li>
                         <li class="fw-bold"><a href="">movie</a></li>
                         <li class="fw-bold"><a href="">tv</a></li>
                         <li class="fw-bold"><a href="">games</a></li>
@@ -24,4 +24,16 @@
             </div>
         </div>
     </div>
+</div>
+<div class="jumbotron">
+    <div class="container-fluid jumbo">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <Button class="button abs">CURRENT SERIES</Button>
 </div>

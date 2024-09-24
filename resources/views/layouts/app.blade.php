@@ -16,6 +16,7 @@
     </header>
     <main>
         @yield('main')
+        @yield('comicBook')
     </main>
     <footer>
         @include('partials.footer')

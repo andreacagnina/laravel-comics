@@ -1,18 +1,6 @@
 @extends('layouts.app')
 
 @section('main')
-    <div class="jumbotron">
-        <div class="container-fluid jumbo">
-            <div class="row">
-                <div class="col-12 p-0">
-                    <div class="content">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <Button class="button abs">CURRENT SERIES</Button>
-    </div>
     <section>
         <div class="container">
             <div class="row">
@@ -20,7 +8,7 @@
                     <div class="row">
                         @foreach ($comics as $comic)
                             <div class="col-2 my-3">
-                                <a href="">
+                                <a href="{{ route('comic') }}">
                                     <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="card-img-top w-100">
                                     <h6 class="mt-2">{{ $comic['series'] }}</h6>
                                 </a>

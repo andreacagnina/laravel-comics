@@ -49,23 +49,6 @@ header {
 
 
 main {
-    .jumbotron {
-        position: relative;
-
-        .abs {
-            position: absolute;
-            bottom: -17px;
-            left: 15%;
-        }
-    }
-
-    .button {
-        background-color: #0c7cec;
-        color: white;
-        border: none;
-        padding: 5px 25px;
-        text-transform: uppercase;
-    }
 
     section {
         background-color: black;
@@ -104,6 +87,24 @@ main {
         }
     }
 
+}
+
+.jumbotron {
+    position: relative;
+
+    .abs {
+        position: absolute;
+        bottom: -17px;
+        left: 15%;
+    }
+}
+
+.button {
+    background-color: #0c7cec;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    text-transform: uppercase;
 }
 
 .jumbo .content {
