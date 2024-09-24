@@ -61,14 +61,14 @@ footer {
 
 
     .bg-image-logo {
-        background-image: url(/src/assets/dc-logo-bg.png);
+        background-image: url(../images/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-position: right;
 
     }
 
     .top-footer {
-        background-image: url(/src/assets/footer-bg.jpg);
+        background-image: url(../images/footer-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -82,24 +82,24 @@ footer {
             padding: 20px 15px;
 
             a:first-child {
-                color: $brand_primary
+                color: #0c7cec;
             }
 
             img:hover {
-                background-color: $brand_primary;
+                background-color: #0c7cec;
                 border-radius: 50%;
             }
         }
     }
 
     .butn {
-        border: 1px solid $brand_primary;
+        border: 1px solid #0c7cec;
         color: white;
         padding: 7px 10px;
         background-color: #303030;
 
         &:hover {
-            background-color: $brand_primary;
+            background-color: #0c7cec;
         }
     }
 }
