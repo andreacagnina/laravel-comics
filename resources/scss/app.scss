@@ -1,1 +1,105 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header {
+    img {
+        border: 5px solid white;
+    }
+
+
+    ul {
+        li {
+            display: flex;
+            align-items: center;
+            padding: 30px 15px;
+            height: 100%;
+            border-top: 5px solid white;
+            border-bottom: 5px solid white;
+
+            &:hover {
+                border-bottom-color: #0c7cec;
+            }
+
+            &:hover a {
+                color: #0c7cec;
+            }
+
+            a {
+                color: black;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+footer {
+    h4 {
+        text-transform: uppercase;
+    }
+
+    a {
+        color: gray;
+
+        &:hover {
+            color: white
+        }
+    }
+
+
+    .bg-image-logo {
+        background-image: url(/src/assets/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+
+    .top-footer {
+        background-image: url(/src/assets/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .bottom-footer {
+        background-color: #303030;
+
+
+        li {
+            padding: 20px 15px;
+
+            a:first-child {
+                color: $brand_primary
+            }
+
+            img:hover {
+                background-color: $brand_primary;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .butn {
+        border: 1px solid $brand_primary;
+        color: white;
+        padding: 7px 10px;
+        background-color: #303030;
+
+        &:hover {
+            background-color: $brand_primary;
+        }
+    }
+}
