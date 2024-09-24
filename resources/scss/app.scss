@@ -46,6 +46,60 @@ header {
     }
 }
 
+
+main {
+    .jumbotron {
+        position: relative;
+
+        .abs {
+            position: absolute;
+            bottom: -17px;
+            left: 15%;
+        }
+    }
+
+    .button {
+        background-color: #0c7cec;
+        color: white;
+        border: none;
+        padding: 5px 25px;
+        text-transform: uppercase;
+    }
+
+    section {
+        background-color: black;
+        padding: 20px;
+
+    }
+
+    .section-two {
+        background-color: #0c7cec;
+
+        a {
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        li:nth-child(4) {
+            img {
+                width: 25px;
+            }
+        }
+    }
+
+}
+
+.jumbo .content {
+    height: 400px;
+    background-image: url(../images/jumbotron.jpg);
+    background-repeat: no-repeat;
+}
+
+
 footer {
     h4 {
         text-transform: uppercase;
@@ -100,6 +154,14 @@ footer {
 
         &:hover {
             background-color: #0c7cec;
+        }
+    }
+
+    .card-content img {
+        aspect-ratio: 1/1;
+
+        &:hover {
+            border: 10px inset lighten(#0c7cec, 30%);
         }
     }
 }
