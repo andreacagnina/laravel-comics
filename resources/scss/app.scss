@@ -38,6 +38,7 @@ header {
                 border-bottom-color: $primary;
             }
 
+
             &:hover a {
                 color: $primary;
             }
@@ -47,7 +48,12 @@ header {
                 text-transform: uppercase;
             }
         }
+
+        li.active {
+            border-bottom-color: $primary;
+        }
     }
+
 }
 
 

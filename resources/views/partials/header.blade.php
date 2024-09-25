@@ -10,7 +10,8 @@
                 <div class="content d-flex align-item-center">
                     <ul class="d-flex my-0">
                         <li class="fw-bold"><a href="">characters</a></li>
-                        <li class="fw-bold"><a href="{{ route('homepage') }}">comics</a></li>
+                        <li class="fw-bold {{ Route::currentRouteName() === 'homepage' ? 'active' : ' ?>' }}"><a
+                                href="{{ route('homepage') }}">comics</a></li>
                         <li class="fw-bold"><a href="">movie</a></li>
                         <li class="fw-bold"><a href="">tv</a></li>
                         <li class="fw-bold"><a href="">games</a></li>
