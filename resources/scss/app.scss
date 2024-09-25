@@ -1,8 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import './_variable/primaryColorText.scss';
+
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto',
+        'sans-serif';
     color: white;
 }
 
@@ -32,11 +35,11 @@ header {
             border-bottom: 5px solid white;
 
             &:hover {
-                border-bottom-color: #0c7cec;
+                border-bottom-color: $primary;
             }
 
             &:hover a {
-                color: #0c7cec;
+                color: $primary;
             }
 
             a {
@@ -61,7 +64,7 @@ main {
     }
 
     .section-two {
-        background-color: #0c7cec;
+        background-color: $primary;
 
         a {
             text-transform: uppercase;
@@ -83,7 +86,7 @@ main {
         aspect-ratio: 1/1;
 
         &:hover {
-            border: 10px inset lighten(#0c7cec, 30%);
+            border: 10px inset lighten($primary, 30%);
         }
     }
 
@@ -100,7 +103,7 @@ main {
 }
 
 .button {
-    background-color: #0c7cec;
+    background-color: $primary;
     color: white;
     border: none;
     padding: 5px 25px;
@@ -150,24 +153,24 @@ footer {
             padding: 20px 15px;
 
             a:first-child {
-                color: #0c7cec;
+                color: $primary;
             }
 
             img:hover {
-                background-color: #0c7cec;
+                background-color: $primary;
                 border-radius: 50%;
             }
         }
     }
 
     .butn {
-        border: 1px solid #0c7cec;
+        border: 1px solid $primary;
         color: white;
         padding: 7px 10px;
         background-color: #303030;
 
         &:hover {
-            background-color: #0c7cec;
+            background-color: $primary;
         }
     }
 
